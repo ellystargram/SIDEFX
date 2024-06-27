@@ -1,4 +1,4 @@
-package com.cgos.go
+package com.cgos.side
 
 enum class InputMode {
     COMMAND,

@@ -1,0 +1,78 @@
+package com.cgos.side
+
+class CharSize {
+    var charMap: Map<String, Double> = mapOf()
+    init {
+        // Upper case letters
+        charMap = charMap.plus("A" to 13.0)
+        charMap = charMap.plus("B" to 10.0)
+        charMap = charMap.plus("C" to 12.0)
+        charMap = charMap.plus("D" to 12.0)
+        charMap = charMap.plus("E" to 10.0)
+        charMap = charMap.plus("F" to 10.0)
+        charMap = charMap.plus("G" to 12.0)
+        charMap = charMap.plus("H" to 12.0)
+        charMap = charMap.plus("I" to 4.0)
+        charMap = charMap.plus("J" to 7.0)
+        charMap = charMap.plus("K" to 10.0)
+        charMap = charMap.plus("L" to 10.0)
+        charMap = charMap.plus("M" to 15.0)
+        charMap = charMap.plus("N" to 11.0)
+        charMap = charMap.plus("O" to 13.0)
+        charMap = charMap.plus("P" to 10.0)
+        charMap = charMap.plus("Q" to 15.0)
+        charMap = charMap.plus("R" to 11.0)
+        charMap = charMap.plus("S" to 11.0)
+        charMap = charMap.plus("T" to 11.0)
+        charMap = charMap.plus("U" to 13.0)
+        charMap = charMap.plus("V" to 13.0)
+        charMap = charMap.plus("W" to 17.0)
+        charMap = charMap.plus("X" to 12.0)
+        charMap = charMap.plus("Y" to 12.0)
+        charMap = charMap.plus("Z" to 12.0)
+
+
+        // Lower case letters
+        charMap = charMap.plus("a" to 9.0)
+        charMap = charMap.plus("b" to 10.0)
+        charMap = charMap.plus("c" to 8.5)
+        charMap = charMap.plus("d" to 10.0)
+        charMap = charMap.plus("e" to 10.0)
+        charMap = charMap.plus("f" to 7.0)
+        charMap = charMap.plus("g" to 10.0)
+        charMap = charMap.plus("h" to 10.0)
+        charMap = charMap.plus("i" to 4.0)
+        charMap = charMap.plus("j" to 5.0)
+        charMap = charMap.plus("k" to 10.0)
+        charMap = charMap.plus("l" to 4.0)
+        charMap = charMap.plus("m" to 15.0)
+        charMap = charMap.plus("n" to 10.0)
+        charMap = charMap.plus("o" to 10.0)
+        charMap = charMap.plus("p" to 10.0)
+        charMap = charMap.plus("q" to 10.0)
+        charMap = charMap.plus("r" to 6.0)
+        charMap = charMap.plus("s" to 8.0)
+        charMap = charMap.plus("t" to 8.0)
+        charMap = charMap.plus("u" to 10.0)
+        charMap = charMap.plus("v" to 10.0)
+        charMap = charMap.plus("w" to 15.0)
+        charMap = charMap.plus("x" to 8.0)
+        charMap = charMap.plus("y" to 10.0)
+        charMap = charMap.plus("z" to 10.0)
+
+        // Numbers
+        charMap = charMap.plus("0" to 10.0)
+        charMap = charMap.plus("1" to 10.0)
+        charMap = charMap.plus("2" to 10.0)
+        charMap = charMap.plus("3" to 10.0)
+        charMap = charMap.plus("4" to 10.0)
+        charMap = charMap.plus("5" to 10.0)
+        charMap = charMap.plus("6" to 10.0)
+        charMap = charMap.plus("7" to 10.0)
+        charMap = charMap.plus("8" to 10.0)
+        charMap = charMap.plus("9" to 10.0)
+
+        // Special characters
+        charMap = charMap.plus(" " to 5.0)
+    }
+}
